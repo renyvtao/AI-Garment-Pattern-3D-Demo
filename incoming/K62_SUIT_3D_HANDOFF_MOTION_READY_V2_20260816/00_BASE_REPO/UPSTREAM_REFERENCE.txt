@@ -1,0 +1,9 @@
+GarmentCodeRC upstream:
+https://github.com/biansy000/GarmentCodeRC
+
+Use policy for this handoff:
+1. Keep the student's existing original+2D working repo untouched.
+2. Copy that already-2D-enabled repo to a new directory, e.g. D:\GarmentCodeRC_K62_3D.
+3. Apply this handoff's 3D runtime overlay only to the copy.
+
+The optional 2D extension ZIP is bundled only for recovery/reinstallation; it is not automatically applied by the 3D installer.

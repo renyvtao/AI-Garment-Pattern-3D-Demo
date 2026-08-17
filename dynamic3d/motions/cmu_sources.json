@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "provider": "Carnegie Mellon University Graphics Lab Motion Capture Database",
+  "homepage": "https://mocap.cs.cmu.edu/",
+  "license_summary": "Free for all uses, including commercially sold products; the motion data itself may not be resold directly, including in converted form.",
+  "source_fps": 120,
+  "files": [
+    {
+      "id": "cmu_69_skeleton",
+      "url": "https://mocap.cs.cmu.edu/subjects/69/69.asf",
+      "filename": "69.asf",
+      "description": "Calibrated skeleton for CMU subject 69"
+    },
+    {
+      "id": "cmu_69_01",
+      "url": "https://mocap.cs.cmu.edu/subjects/69/69_01.amc",
+      "filename": "69_01.amc",
+      "description": "walk forward; horizontal root movement is removed after retargeting"
+    },
+    {
+      "id": "cmu_69_16",
+      "url": "https://mocap.cs.cmu.edu/subjects/69/69_16.amc",
+      "filename": "69_16.amc",
+      "description": "turn in place; cropped and limited to a subtle presentation turn"
+    },
+    {
+      "id": "cmu_141_skeleton",
+      "url": "https://mocap.cs.cmu.edu/subjects/141/141.asf",
+      "filename": "141.asf",
+      "description": "Calibrated skeleton for CMU subject 141"
+    },
+    {
+      "id": "cmu_141_16",
+      "url": "https://mocap.cs.cmu.edu/subjects/141/141_16.amc",
+      "filename": "141_16.amc",
+      "description": "Wave Hello"
+    }
+  ]
+}

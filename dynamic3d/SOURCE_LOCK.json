@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-07-27",
+  "sources": {
+    "ContourCraft-CG": {
+      "url": "https://github.com/biansy000/ContourCraft-CG.git",
+      "commit": "2a8f84a4c9793b8df35f8baafab6f1bf649bb657"
+    },
+    "ContourCraft": {
+      "url": "https://github.com/Dolorousrtur/ContourCraft.git",
+      "commit": "d606432c2f7e96b05664e6a4ffb9d1cb98705baf"
+    },
+    "CCCollisions": {
+      "url": "https://github.com/Dolorousrtur/CCCollisions.git",
+      "commit": "215195a7716810c2a6da069724409e5286a250d9"
+    },
+    "cuda-samples": {
+      "url": "https://github.com/NVIDIA/cuda-samples.git",
+      "commit": "b7c5481c556c3fe98db060207ecaa41a4b9a9abc"
+    },
+    "PyTorch3D": {
+      "url": "https://github.com/facebookresearch/pytorch3d.git",
+      "tag": "v0.7.4",
+      "commit": "297020a4b1d7492190cb4a909cafbd2c81a12cb5"
+    }
+  }
+}

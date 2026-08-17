@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "output_format": {
+    "fps": 30,
+    "poses": "float32[T,55,3] SMPL-X axis-angle",
+    "trans": "float32[T,3] meters",
+    "betas": "float32[300], replaced for each selected body",
+    "gender": "male, female, or neutral"
+  },
+  "actions": [
+    {
+      "id": "none",
+      "label_zh": "不生成动态视频",
+      "kind": "disabled",
+      "asset": null
+    },
+    {
+      "id": "official_showcase",
+      "label_zh": "官方展示动作",
+      "kind": "official_project_asset",
+      "asset": "dynamic3d/assets/ccraft_data/motions/male_31_us_1190_0022_300.npz",
+      "notes": "ChatGarment-CG bundled BEDLAM sequence; retain its honest showcase label because the file contains no semantic action label."
+    },
+    {
+      "id": "standing_turn",
+      "label_zh": "站立轻转",
+      "kind": "retargeted_mocap",
+      "asset": "dynamic3d/assets/motions/processed/cmu_69_16_standing_turn_smplx.npz",
+      "source_ids": ["cmu_69_skeleton", "cmu_69_16"]
+    },
+    {
+      "id": "wave",
+      "label_zh": "原地挥手",
+      "kind": "retargeted_mocap",
+      "asset": "dynamic3d/assets/motions/processed/cmu_141_16_wave_smplx.npz",
+      "source_ids": ["cmu_141_skeleton", "cmu_141_16"]
+    },
+    {
+      "id": "walk_in_place",
+      "label_zh": "原地行走",
+      "kind": "retargeted_mocap",
+      "asset": "dynamic3d/assets/motions/processed/cmu_69_01_walk_in_place_smplx.npz",
+      "source_ids": ["cmu_69_skeleton", "cmu_69_01"]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "profileName": "AI Garment GPU Server",
+  "sshHost": "gpu.example.com",
+  "sshPort": 22,
+  "sshUser": "root",
+  "localPort": 3000,
+  "remotePort": 3000,
+  "remoteProjectRoot": "/opt/ai-garment-pattern-3d-demo",
+  "healthTimeoutSeconds": 180
+}

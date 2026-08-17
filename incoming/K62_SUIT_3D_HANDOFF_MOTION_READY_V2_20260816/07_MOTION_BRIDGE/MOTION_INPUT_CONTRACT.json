@@ -1,0 +1,16 @@
+{
+  "stage": "future_motion_bridge",
+  "direct_video_input_supported_in_this_package": false,
+  "required_intermediate": "per-frame body mesh sequence",
+  "body_reference": "../02_BODY/mean_all.obj",
+  "body_sequence_glob": "body_*.obj",
+  "units": "meters, same as bundled mean_all.obj before GarmentCodeRC b_scale=100",
+  "topology_requirement": "all frames must have exactly the same vertex count, face count, face indexing and vertex order as mean_all.obj",
+  "coordinate_requirement": "frame 0 must be aligned to the same world/body coordinate convention used by the K62 replay; preserve one consistent transform across the sequence",
+  "recommended_fps": 30,
+  "garment_start_state": "use a validated draped K62 frame such as FRAME0020, not the undeformed 2D pattern",
+  "routes": {
+    "A_current_warp_experimental": "update Warp body collider mesh points per frame; requires new dynamic validation and handling of cloth-reference drag",
+    "B_contourcraft_recommended_for_motion": "convert garment/body sequence into ContourCraft/ContourCraft-CG workflow; upstream ChatGarment uses ContourCraft-CG for garment simulation"
+  }
+}

@@ -1,0 +1,3 @@
+# Machine-specific endpoint. It deliberately contains no password, but should not
+# be committed because server addresses and ports are deployment-specific.
+server_connection.local.json
