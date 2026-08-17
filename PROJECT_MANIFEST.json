@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "recommended_hardware": {
+    "gpu": "NVIDIA GPU",
+    "minimum_vram_gib": 24,
+    "disk_gib": 150
+  },
+  "runtime": {
+    "os": "Ubuntu 22.04",
+    "python": "3.10.8",
+    "driver": "580.105.08",
+    "cuda_toolkit": "11.8.89",
+    "torch": "2.1.2+cu118",
+    "torchvision": "0.16.2+cu118",
+    "transformers": "4.37.2",
+    "peft": "0.10.0",
+    "deepspeed": "0.12.6",
+    "flash_attn": "2.5.9.post1"
+  },
+  "sources": {
+    "ChatGarment": {
+      "repository": "https://github.com/biansy000/ChatGarment",
+      "commit": "798c34ac04319668aaa0e3a3a02d44284fbd70ec"
+    },
+    "GarmentCodeRC": {
+      "repository": "https://github.com/biansy000/GarmentCodeRC",
+      "commit": "e3d4476d6f9bcb0af5ee0eccd18b0433e3df398a"
+    },
+    "llava_base": {
+      "repository": "liuhaotian/llava-v1.5-7b",
+      "revision": "4481d270cc22fd5c4d1bb5df129622006ccd9234"
+    },
+    "clip_vision": {
+      "repository": "openai/clip-vit-large-patch14-336",
+      "revision": "ce19dc912ca5cd21c8a653c79e251e808ccabcd1"
+    },
+    "chatgarment_checkpoint": {
+      "source": "official SJTU SharePoint link from ChatGarment README",
+      "expected_bytes": 14987210682,
+      "sha256": "3d6ca6dc52d4400d5603ac0dcb163aeb82d1021d99c90686253f6cc4a72b8a3a"
+    }
+  }
+}

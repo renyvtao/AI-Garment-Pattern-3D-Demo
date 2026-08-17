@@ -1,0 +1,56 @@
+# Local environments and build caches
+**/.git/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+**/dist/
+**/.vinext/
+**/.wrangler/
+**/.openai/
+*.py[cod]
+
+# Runtime state and generated caches
+app_data/
+**/runtime/
+**/logs/
+*.log
+*.pid
+
+# Credentials and machine-specific connection settings
+*.local.json
+server_connection.local.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Model weights and restricted body assets
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+SMPL*.pkl
+smplx/
+checkpoints/
+
+# Binary caches are intentionally not published
+*.pickle
+*.pkl
+*.npz
+*.blend
+!incoming/**/K62*_orig_lens.pickle
+
+# Duplicate archives and local bundles
+*.tar
+*.tar.gz
+*.zip
+!incoming/**/MENS_SUIT_2D_EXTENSION_FOR_ORIGINAL_GARMENTCODERC_20260816.zip
+gallery_site_bundle.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
