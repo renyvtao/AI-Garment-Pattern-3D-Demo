@@ -1,0 +1,3068 @@
+[
+  {
+    "id": "suit_00001_1",
+    "image": "images/suit_00001_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.785, 'button_spacing_cm': 9.0, 'waist_ease_cm': 17.75, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00032_1",
+    "image": "images/suit_00032_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.715, 'button_spacing_cm': 9.0, 'waist_ease_cm': 12.25, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00041_1",
+    "image": "images/suit_00041_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.715, 'button_spacing_cm': 9.0, 'waist_ease_cm': 12.25, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00052_1",
+    "image": "images/suit_00052_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00065_1",
+    "image": "images/suit_00065_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00076_1",
+    "image": "images/suit_00076_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 17.75, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00083_1",
+    "image": "images/suit_00083_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.8, 'button_spacing_cm': 9.0, 'waist_ease_cm': 19.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00093_1",
+    "image": "images/suit_00093_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 17.75, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00096_1",
+    "image": "images/suit_00096_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00117_1",
+    "image": "images/suit_00117_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.715, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00122_1",
+    "image": "images/suit_00122_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.7, 'button_spacing_cm': 9.0, 'waist_ease_cm': 12.25, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00128_1",
+    "image": "images/suit_00128_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.715, 'button_spacing_cm': 9.0, 'waist_ease_cm': 12.25, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00142_1",
+    "image": "images/suit_00142_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00154_1",
+    "image": "images/suit_00154_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.785, 'button_spacing_cm': 9.0, 'waist_ease_cm': 17.75, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00158_1",
+    "image": "images/suit_00158_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.715, 'button_spacing_cm': 9.0, 'waist_ease_cm': 12.25, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00164_1",
+    "image": "images/suit_00164_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.715, 'button_spacing_cm': 9.0, 'waist_ease_cm': 11.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00177_1",
+    "image": "images/suit_00177_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00185_1",
+    "image": "images/suit_00185_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00214_1",
+    "image": "images/suit_00214_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00220_1",
+    "image": "images/suit_00220_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00220_2",
+    "image": "images/suit_00220_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00220_3",
+    "image": "images/suit_00220_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00220_4",
+    "image": "images/suit_00220_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00235_1",
+    "image": "images/suit_00235_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00235_2",
+    "image": "images/suit_00235_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00235_3",
+    "image": "images/suit_00235_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00235_4",
+    "image": "images/suit_00235_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00236_1",
+    "image": "images/suit_00236_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00236_2",
+    "image": "images/suit_00236_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00236_3",
+    "image": "images/suit_00236_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00236_4",
+    "image": "images/suit_00236_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00237_1",
+    "image": "images/suit_00237_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00237_2",
+    "image": "images/suit_00237_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00237_3",
+    "image": "images/suit_00237_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00237_4",
+    "image": "images/suit_00237_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00248_1",
+    "image": "images/suit_00248_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00248_2",
+    "image": "images/suit_00248_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00248_3",
+    "image": "images/suit_00248_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00248_4",
+    "image": "images/suit_00248_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00256_1",
+    "image": "images/suit_00256_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00256_2",
+    "image": "images/suit_00256_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00256_3",
+    "image": "images/suit_00256_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00256_4",
+    "image": "images/suit_00256_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00258_1",
+    "image": "images/suit_00258_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00258_2",
+    "image": "images/suit_00258_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00258_3",
+    "image": "images/suit_00258_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00258_4",
+    "image": "images/suit_00258_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00261_1",
+    "image": "images/suit_00261_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00261_2",
+    "image": "images/suit_00261_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00261_3",
+    "image": "images/suit_00261_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00261_4",
+    "image": "images/suit_00261_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00262_1",
+    "image": "images/suit_00262_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00262_2",
+    "image": "images/suit_00262_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00262_3",
+    "image": "images/suit_00262_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00262_4",
+    "image": "images/suit_00262_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00272_1",
+    "image": "images/suit_00272_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00272_2",
+    "image": "images/suit_00272_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00272_3",
+    "image": "images/suit_00272_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00272_4",
+    "image": "images/suit_00272_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00282_1",
+    "image": "images/suit_00282_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00282_2",
+    "image": "images/suit_00282_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00282_3",
+    "image": "images/suit_00282_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00282_4",
+    "image": "images/suit_00282_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00295_1",
+    "image": "images/suit_00295_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00295_2",
+    "image": "images/suit_00295_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00295_3",
+    "image": "images/suit_00295_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00295_4",
+    "image": "images/suit_00295_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00303_1",
+    "image": "images/suit_00303_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00303_2",
+    "image": "images/suit_00303_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00303_3",
+    "image": "images/suit_00303_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00303_4",
+    "image": "images/suit_00303_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00306_1",
+    "image": "images/suit_00306_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00306_2",
+    "image": "images/suit_00306_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00306_3",
+    "image": "images/suit_00306_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00306_4",
+    "image": "images/suit_00306_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00333_1",
+    "image": "images/suit_00333_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00333_2",
+    "image": "images/suit_00333_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00333_3",
+    "image": "images/suit_00333_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00333_4",
+    "image": "images/suit_00333_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00338_1",
+    "image": "images/suit_00338_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00338_2",
+    "image": "images/suit_00338_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00338_3",
+    "image": "images/suit_00338_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00338_4",
+    "image": "images/suit_00338_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00345_1",
+    "image": "images/suit_00345_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00345_2",
+    "image": "images/suit_00345_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00345_3",
+    "image": "images/suit_00345_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00345_4",
+    "image": "images/suit_00345_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00349_1",
+    "image": "images/suit_00349_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00349_2",
+    "image": "images/suit_00349_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00349_3",
+    "image": "images/suit_00349_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00349_4",
+    "image": "images/suit_00349_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00372_1",
+    "image": "images/suit_00372_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00372_2",
+    "image": "images/suit_00372_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00372_3",
+    "image": "images/suit_00372_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00372_4",
+    "image": "images/suit_00372_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00372_5",
+    "image": "images/suit_00372_5.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00373_1",
+    "image": "images/suit_00373_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00373_2",
+    "image": "images/suit_00373_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00373_3",
+    "image": "images/suit_00373_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00373_4",
+    "image": "images/suit_00373_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00373_5",
+    "image": "images/suit_00373_5.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00379_1",
+    "image": "images/suit_00379_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00379_2",
+    "image": "images/suit_00379_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00379_3",
+    "image": "images/suit_00379_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00379_4",
+    "image": "images/suit_00379_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00379_5",
+    "image": "images/suit_00379_5.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00383_1",
+    "image": "images/suit_00383_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00383_2",
+    "image": "images/suit_00383_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00383_3",
+    "image": "images/suit_00383_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00383_4",
+    "image": "images/suit_00383_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00386_1",
+    "image": "images/suit_00386_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00386_2",
+    "image": "images/suit_00386_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00386_3",
+    "image": "images/suit_00386_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00386_4",
+    "image": "images/suit_00386_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00398_1",
+    "image": "images/suit_00398_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00398_2",
+    "image": "images/suit_00398_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00398_3",
+    "image": "images/suit_00398_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00398_4",
+    "image": "images/suit_00398_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00408_1",
+    "image": "images/suit_00408_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00408_2",
+    "image": "images/suit_00408_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00408_3",
+    "image": "images/suit_00408_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00408_4",
+    "image": "images/suit_00408_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00417_1",
+    "image": "images/suit_00417_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00417_2",
+    "image": "images/suit_00417_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00417_3",
+    "image": "images/suit_00417_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00417_4",
+    "image": "images/suit_00417_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00449_1",
+    "image": "images/suit_00449_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00449_2",
+    "image": "images/suit_00449_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00449_3",
+    "image": "images/suit_00449_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00449_4",
+    "image": "images/suit_00449_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00492_1",
+    "image": "images/suit_00492_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00492_2",
+    "image": "images/suit_00492_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00492_3",
+    "image": "images/suit_00492_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00492_4",
+    "image": "images/suit_00492_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00512_1",
+    "image": "images/suit_00512_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00512_2",
+    "image": "images/suit_00512_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00512_3",
+    "image": "images/suit_00512_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00513_1",
+    "image": "images/suit_00513_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00513_2",
+    "image": "images/suit_00513_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00513_3",
+    "image": "images/suit_00513_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00513_4",
+    "image": "images/suit_00513_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00519_1",
+    "image": "images/suit_00519_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00519_2",
+    "image": "images/suit_00519_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00519_3",
+    "image": "images/suit_00519_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00519_4",
+    "image": "images/suit_00519_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00529_1",
+    "image": "images/suit_00529_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00529_2",
+    "image": "images/suit_00529_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00529_3",
+    "image": "images/suit_00529_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00529_4",
+    "image": "images/suit_00529_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00530_1",
+    "image": "images/suit_00530_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00530_2",
+    "image": "images/suit_00530_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00530_3",
+    "image": "images/suit_00530_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00530_4",
+    "image": "images/suit_00530_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00538_1",
+    "image": "images/suit_00538_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00538_2",
+    "image": "images/suit_00538_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00538_3",
+    "image": "images/suit_00538_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00538_4",
+    "image": "images/suit_00538_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00542_1",
+    "image": "images/suit_00542_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00542_2",
+    "image": "images/suit_00542_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00542_3",
+    "image": "images/suit_00542_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00542_4",
+    "image": "images/suit_00542_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00543_1",
+    "image": "images/suit_00543_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00543_2",
+    "image": "images/suit_00543_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00543_3",
+    "image": "images/suit_00543_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00543_4",
+    "image": "images/suit_00543_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00552_1",
+    "image": "images/suit_00552_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00552_2",
+    "image": "images/suit_00552_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00552_3",
+    "image": "images/suit_00552_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00552_4",
+    "image": "images/suit_00552_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00552_5",
+    "image": "images/suit_00552_5.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00561_1",
+    "image": "images/suit_00561_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 19.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00561_2",
+    "image": "images/suit_00561_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 19.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00561_3",
+    "image": "images/suit_00561_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 19.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00561_4",
+    "image": "images/suit_00561_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 19.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00567_1",
+    "image": "images/suit_00567_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00567_2",
+    "image": "images/suit_00567_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00567_3",
+    "image": "images/suit_00567_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00567_4",
+    "image": "images/suit_00567_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00605_1",
+    "image": "images/suit_00605_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00605_2",
+    "image": "images/suit_00605_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00605_3",
+    "image": "images/suit_00605_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00605_4",
+    "image": "images/suit_00605_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00615_1",
+    "image": "images/suit_00615_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00615_2",
+    "image": "images/suit_00615_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00615_3",
+    "image": "images/suit_00615_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00615_4",
+    "image": "images/suit_00615_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00621_1",
+    "image": "images/suit_00621_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00621_2",
+    "image": "images/suit_00621_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00621_3",
+    "image": "images/suit_00621_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00621_4",
+    "image": "images/suit_00621_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00630_1",
+    "image": "images/suit_00630_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00630_2",
+    "image": "images/suit_00630_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00630_3",
+    "image": "images/suit_00630_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00630_4",
+    "image": "images/suit_00630_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00633_1",
+    "image": "images/suit_00633_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00633_2",
+    "image": "images/suit_00633_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00633_3",
+    "image": "images/suit_00633_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00633_4",
+    "image": "images/suit_00633_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00637_1",
+    "image": "images/suit_00637_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00637_2",
+    "image": "images/suit_00637_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00637_3",
+    "image": "images/suit_00637_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00637_4",
+    "image": "images/suit_00637_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00666_1",
+    "image": "images/suit_00666_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00666_2",
+    "image": "images/suit_00666_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00666_3",
+    "image": "images/suit_00666_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00666_4",
+    "image": "images/suit_00666_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00672_1",
+    "image": "images/suit_00672_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00672_2",
+    "image": "images/suit_00672_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00672_3",
+    "image": "images/suit_00672_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00672_4",
+    "image": "images/suit_00672_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00677_1",
+    "image": "images/suit_00677_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00677_2",
+    "image": "images/suit_00677_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00677_3",
+    "image": "images/suit_00677_3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00677_4",
+    "image": "images/suit_00677_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00691_1",
+    "image": "images/suit_00691_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': False, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00695_1",
+    "image": "images/suit_00695_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 12.25, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': False}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00699_1",
+    "image": "images/suit_00699_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00717_1",
+    "image": "images/suit_00717_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 12.25, 'body_panel_layout': 'six_panel', 'lapel_style': 'peak', 'front_lower_edge_style': 'curved', 'button_count': 1, 'small_pocket_enabled': True, 'large_pockets_enabled': True}}"
+      }
+    ]
+  },
+  {
+    "id": "suit_00722_1",
+    "image": "images/suit_00722_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you estimate the men's suit jacket sewing pattern parameters based on the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "{'garment_type': 'MensSuitJacketCleanFinal', 'suit': {'garment_length_ratio': 1.75, 'button_spacing_cm': 9.0, 'waist_ease_cm': 15.0, 'body_panel_layout': 'six_panel', 'lapel_style': 'notched', 'front_lower_edge_style': 'curved', 'button_count': 2, 'small_pocket_enabled': False, 'large_pockets_enabled': False}}"
+      }
+    ]
+  }
+]

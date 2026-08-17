@@ -1,0 +1,50 @@
+{
+  "source_zip": "suit_images.zip",
+  "source_sha256": "a926b50b269dbe88adced3100d104d3b354aa1eb1645afa39b8bd38420efbf45",
+  "seed": 20260816,
+  "rules": {
+    "mode": "user_selected_mens_suit",
+    "garment_type": "MensSuitJacketCleanFinal",
+    "button_count": "clamp to [1, 2]",
+    "body_panel_layout": "six_panel",
+    "front_lower_edge_style": "curved",
+    "button_spacing_cm": 9.0
+  },
+  "source_records": 2178,
+  "kept_records": 2177,
+  "base_garments": 723,
+  "duplicates_removed": [
+    {
+      "dropped": "suit_00206_5.jpg",
+      "kept": "suit_00206_2.jpg",
+      "sha256": "0fc9ae7bf3904bec7e5d685d058fac1f04e0b984cf1cd696c1cc79e307ff6e72"
+    }
+  ],
+  "button_count_before": {
+    "0": 603,
+    "1": 406,
+    "2": 913,
+    "3": 255
+  },
+  "button_count_after": {
+    "1": 1009,
+    "2": 1168
+  },
+  "splits": {
+    "train": {
+      "base_garments": 579,
+      "images": 1742,
+      "json": "train.json"
+    },
+    "validation": {
+      "base_garments": 72,
+      "images": 219,
+      "json": "validation.json"
+    },
+    "test": {
+      "base_garments": 72,
+      "images": 216,
+      "json": "test.json"
+    }
+  }
+}
