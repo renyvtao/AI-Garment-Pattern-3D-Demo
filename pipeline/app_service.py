@@ -27,6 +27,7 @@ from typing import Any, Iterator
 from urllib.parse import unquote, urlparse
 
 import numpy as np
+from PIL import Image
 
 from dxf_export import export_specification
 
@@ -153,6 +154,22 @@ def safe_child(root: Path, relative: str) -> Path:
     except ValueError as exc:
         raise ValueError("path escapes storage root") from exc
     return target
+
+
+def prepare_chatgarment_inputs(source_dir: Path, target_dir: Path) -> list[Path]:
+    """Convert uploaded images to the PNG format accepted by official inference."""
+    target_dir.mkdir(parents=True, exist_ok=False)
+    prepared: list[Path] = []
+    for source in sorted(path for path in source_dir.iterdir() if path.is_file()):
+        if source.suffix.lower() not in ALLOWED_IMAGE_SUFFIXES:
+            continue
+        target = target_dir / f"{source.stem}.png"
+        with Image.open(source) as image:
+            image.convert("RGB").save(target, format="PNG")
+        prepared.append(target)
+    if not prepared:
+        raise ValueError("no supported images were prepared for ChatGarment inference")
+    return prepared
 
 
 def resolve_suit_button_count(result_path: Path) -> dict[str, Any]:
@@ -953,8 +970,8 @@ class Pipeline:
         if transient_inputs.exists() or transient_run.exists():
             raise FileExistsError("official lower-body transient paths already exist")
         lower_output = job_root / "outputs" / "official_lower"
-        shutil.copytree(job_root / "inputs", transient_inputs)
         try:
+            prepare_chatgarment_inputs(job_root / "inputs", transient_inputs)
             self.set_stage(
                 job_id,
                 "chatgarment",
@@ -1493,8 +1510,8 @@ class Pipeline:
             )
             if transient_inputs.exists() or transient_run.exists():
                 raise FileExistsError("transient job paths already exist")
-            shutil.copytree(input_dir, transient_inputs)
             try:
+                prepare_chatgarment_inputs(input_dir, transient_inputs)
                 inference_env = os.environ.copy()
                 inference_env["CUDA_VISIBLE_DEVICES"] = "0"
                 inference_env["CHATGARMENT_BODY_MEASUREMENT_PATH"] = str(

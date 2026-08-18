@@ -6,12 +6,15 @@ import unittest
 import zipfile
 from pathlib import Path
 
+from PIL import Image
+
 from app_service import (
     JobStore,
     Pipeline,
     delete_job,
     load_lower_specifications,
     parse_byte_range,
+    prepare_chatgarment_inputs,
     read_lower_garment_type,
     resolve_suit_button_count,
     row_payload,
@@ -82,6 +85,29 @@ class JobStoreTests(unittest.TestCase):
     def test_path_escape_is_rejected(self) -> None:
         with self.assertRaises(ValueError):
             safe_child(self.store.runs_root, "../outside")
+
+    def test_chatgarment_inputs_are_normalized_to_rgb_png(self) -> None:
+        source = self.root / "uploads"
+        target = self.root / "chatgarment-inputs"
+        source.mkdir()
+        Image.new("RGBA", (8, 6), (10, 20, 30, 128)).save(
+            source / "001_sample.webp", format="WEBP"
+        )
+        Image.new("RGB", (5, 7), (40, 50, 60)).save(
+            source / "002_sample.jpeg", format="JPEG"
+        )
+
+        prepared = prepare_chatgarment_inputs(source, target)
+
+        self.assertEqual(
+            [path.name for path in prepared],
+            ["001_sample.png", "002_sample.png"],
+        )
+        self.assertTrue((source / "001_sample.webp").is_file())
+        for path in prepared:
+            with Image.open(path) as image:
+                self.assertEqual(image.format, "PNG")
+                self.assertEqual(image.mode, "RGB")
 
     def test_video_byte_ranges(self) -> None:
         self.assertIsNone(parse_byte_range(None, 1000))
