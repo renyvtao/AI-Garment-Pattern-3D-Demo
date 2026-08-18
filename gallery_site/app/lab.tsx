@@ -1423,7 +1423,7 @@ function WorkflowStudio() {
   const [garmentMode, setGarmentMode] = useState<GarmentMode>("mens_suit");
   const [bodyMode, setBodyMode] = useState<"preset" | "custom">("preset");
   const [gender, setGender] = useState<BodyGender>("male");
-  const [actionId, setActionId] = useState<BodyActionId>("official_showcase");
+  const [actionId, setActionId] = useState<BodyActionId>("none");
   const [measurements, setMeasurements] = useState({
     height_cm: "180",
     weight_kg: "75",
@@ -1562,7 +1562,7 @@ function WorkflowStudio() {
     if (value === "mens_suit") {
       setBodyMode("preset");
       setGender("male");
-      setActionId("official_showcase");
+      setActionId("none");
       setMeasurements({
         height_cm: "180",
         weight_kg: "75",
@@ -1573,7 +1573,7 @@ function WorkflowStudio() {
     } else {
       setBodyMode("preset");
       setGender("female");
-      setActionId("official_showcase");
+      setActionId("none");
       setMeasurements({
         height_cm: "168",
         weight_kg: "55",

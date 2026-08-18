@@ -64,6 +64,8 @@ test("keeps the result inventory and downloadable outputs wired", async () => {
   assert.match(page, /_specification\.json/);
   assert.match(page, /useState<GarmentMode>\("mens_suit"\)/);
   assert.match(page, /useState<BodyGender>\("male"\)/);
+  assert.match(page, /function WorkflowStudio\(\)[\s\S]*?useState<BodyActionId>\("none"\)/);
+  assert.equal((page.match(/setActionId\("none"\)/g) ?? []).length, 2);
   assert.match(
     page,
     /const \[measurements, setMeasurements\] = useState\(\{\s*height_cm: "180",\s*weight_kg: "75",\s*chest_cm: "100",\s*waist_cm: "84",\s*hips_cm: "98",\s*\}\);/s,
