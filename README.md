@@ -87,6 +87,38 @@ flowchart LR
     I --> J
 ```
 
+## 前后端架构
+
+系统采用浏览器前端、统一网关和 Python 任务服务分层组织。浏览器只访问统一入口，模型推理、制版和三维仿真在后端异步执行，避免长时间 GPU 任务阻塞页面请求。
+
+```mermaid
+flowchart LR
+    U["浏览器"] --> G["Node.js 统一网关 :3000"]
+    G --> W["React / Vinext Web :3001"]
+    G --> B["人体与尺寸服务 :7861"]
+    G --> J["任务 API 与单 GPU 队列 :7862"]
+    J --> Q["SQLite 任务状态"]
+    J --> P["ChatGarment / LoRA / GarmentCode / Warp / ContourCraft"]
+    B --> S["本地产物存储"]
+    P --> S
+    S --> G
+```
+
+### 前端
+
+- `gallery_site/` 使用 React、TypeScript 和 Vinext 构建，提供首页、完整处理、人体定制、人体尺寸补全和结果查看等独立页面。
+- 前端通过 `/api/jobs` 提交单张或批量图片、服装类型、人体尺寸和动作配置，并定时读取任务状态、当前步骤和进度。
+- 输入图片、二维板片、DXF/SVG、规格 JSON、静态正反面渲染和动态视频按处理顺序展示；产物支持单独下载和整任务 ZIP 下载。
+- 删除、取消和恢复操作由前端调用任务 API 完成，页面不直接访问模型文件或任务目录。
+
+### 后端
+
+- `gallery_site/gateway.mjs` 是统一 HTTP 网关：页面请求转发到 Web 服务，人体接口转发到人体服务，任务接口和产物请求转发到任务服务。各内部服务默认只监听本机回环地址。
+- `pipeline/app_service.py` 提供任务创建、查询、取消、删除、恢复、存储统计和产物下载接口；任务元数据保存在 SQLite 中，上传文件与生成产物按任务隔离保存。
+- 后端使用单工作线程按创建顺序执行 GPU 任务，依次编排 ChatGarment/西装 LoRA 推理、人体尺寸补全、GarmentCode 制版、DXF 导出、K62/Warp 静态仿真和 ContourCraft 动态仿真，持续更新步骤与进度。
+- `dynamic3d/body_customization/body_service.py` 独立处理国标尺寸补全和可选的定制人体生成，结果通过统一网关返回。
+- 每项任务完成后生成产物清单和 `result_bundle.zip`；删除任务时可清理缓存、移入回收区或永久删除，便于控制磁盘占用。
+
 ## 主要模块
 
 ```text
