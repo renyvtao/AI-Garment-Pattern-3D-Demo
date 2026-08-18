@@ -1,0 +1,119 @@
+{
+  "evaluation": "mens_suit_lora_v1",
+  "date": "2026-08-18",
+  "test_set": {
+    "held_out_base_style_count": 72,
+    "image_count": 216,
+    "split_policy": "grouped_by_base_style",
+    "base_style_overlap_with_train_or_validation": 0
+  },
+  "dataset_split": {
+    "train": {"base_style_count": 579, "image_count": 1742},
+    "validation": {"base_style_count": 72, "image_count": 219},
+    "test": {"base_style_count": 72, "image_count": 216}
+  },
+  "artifact_checksums": {
+    "suit_lora_state.bin": {
+      "bytes": 134263698,
+      "sha256": "113b5eb16558d6c58fc5173562ad6c042007a6a1312b845cca4ff81292c4cf8e"
+    },
+    "prepared_data/test.json": {
+      "case_count": 216,
+      "canonical_json_sha256": "5137ac6bd0402dcf07239eea147c29391c31426f4423c89a13a96df96832db6d"
+    }
+  },
+  "lora": {
+    "generation_success_rate": 1.0,
+    "target_schema_parse_rate": 1.0,
+    "six_field_complete_rate": 1.0,
+    "macro_field_accuracy": 0.7885802469135803,
+    "macro_balanced_accuracy": 0.45107721676796003,
+    "all_fields_pass_rate": 0.16666666666666666,
+    "pattern_generation_rate": 1.0
+  },
+  "field_metrics": {
+    "garment_length_ratio": {
+      "accuracy": 0.9490740740740741,
+      "balanced_accuracy": 0.3333333333333333,
+      "tolerance": 0.01,
+      "mae": 0.0017824074074074033,
+      "rmse": 0.007898370671173832,
+      "class_recalls": {"1.715": 0.0, "1.75": 1.0, "1.785": 0.0}
+    },
+    "waist_ease_cm": {
+      "accuracy": 0.8981481481481481,
+      "balanced_accuracy": 0.3333333333333333,
+      "tolerance_cm": 0.5,
+      "mae_cm": 0.2800925925925926,
+      "rmse_cm": 0.8776415154433099,
+      "class_recalls": {"12.25": 0.0, "15.0": 1.0, "17.75": 0.0}
+    },
+    "lapel_style": {
+      "accuracy": 0.8981481481481481,
+      "balanced_accuracy": 0.5,
+      "class_recalls": {"notched": 1.0, "peak": 0.0}
+    },
+    "button_count": {
+      "accuracy": 0.5972222222222222,
+      "balanced_accuracy": 0.539796633941094,
+      "class_recalls": {"1": 0.15217391304347827, "2": 0.9274193548387096}
+    },
+    "small_pocket_enabled": {
+      "accuracy": 0.5648148148148148,
+      "balanced_accuracy": 0.5,
+      "class_recalls": {"false": 1.0, "true": 0.0}
+    },
+    "large_pockets_enabled": {
+      "accuracy": 0.8240740740740741,
+      "balanced_accuracy": 0.5,
+      "class_recalls": {"false": 0.0, "true": 1.0}
+    }
+  },
+  "majority_constant_baseline": {
+    "macro_field_accuracy": 0.7847222222222222,
+    "macro_balanced_accuracy": 0.4444444444444444,
+    "all_fields_pass_rate": 0.16203703703703703
+  },
+  "lora_improvement_percentage_points": {
+    "macro_field_accuracy": 0.38580246913580973,
+    "all_fields_pass_rate": 0.46296296296296224
+  },
+  "paper_aligned": {
+    "stitching_failure_rate": 0.0,
+    "completed_case_count": 216,
+    "failure_count": 0,
+    "chamfer_distance": null,
+    "fscore": null,
+    "missing_for_cd_fscore": [
+      "per-case ground-truth suit surface meshes",
+      "accurate SMPL-X registration and pose alignment",
+      "consistent coordinate system, unit and garment segmentation"
+    ]
+  },
+  "chatgarment_paper_reference": {
+    "dress4d_target_pose": {
+      "chamfer_distance_x1000": 3.12,
+      "fscore": 0.75,
+      "stitching_failure_rate": 0.0
+    },
+    "dress4d_a_pose": {
+      "chamfer_distance_x1000": 3.06,
+      "fscore": 0.78,
+      "stitching_failure_rate": 0.0
+    },
+    "close": {
+      "chamfer_distance_x1000": 2.94,
+      "fscore": 0.79,
+      "stitching_failure_rate": 0.0
+    },
+    "garment_editing": {
+      "pair_count": 135,
+      "chamfer_distance_x1000": 2.51,
+      "fscore": 0.893
+    },
+    "text_generation": {
+      "prompt_count": 150,
+      "clip_score": 23.7
+    }
+  }
+}

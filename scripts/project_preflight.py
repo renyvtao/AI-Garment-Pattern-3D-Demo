@@ -71,6 +71,9 @@ def main() -> None:
     package_names = [
         "torch",
         "torchvision",
+        "pytorch3d",
+        "fvcore",
+        "iopath",
         "transformers",
         "peft",
         "deepspeed",

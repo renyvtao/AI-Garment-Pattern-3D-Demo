@@ -60,9 +60,16 @@ source venv/bin/activate
 python -m pip install --upgrade pip setuptools wheel
 python -m pip install -r requirements-app.lock.txt
 python -m pip install flash-attn==2.5.9.post1 --no-build-isolation
+python -m pip install fvcore iopath
+python -m pip install --no-build-isolation \
+  "git+https://github.com/facebookresearch/pytorch3d.git@v0.7.7"
 ```
 
 随后按 ChatGarment 固定 revision 中的安装说明编译其额外 CUDA 扩展。`requirements-app.lock.txt` 锁定了本项目服务和男西装 LoRA 使用的核心 Python 包；上游仓库特有依赖仍以上游固定 revision 为准。
+
+PyTorch3D 只用于论文口径的三维网格指标评测；`v0.7.7` 已在本项目固定的
+PyTorch 2.1.2 + CUDA 11.8 环境中验证。它需要在目标服务器上编译 CUDA 扩展，
+因此安装时间通常明显长于普通 Python 包。
 
 ## 5. 基础模型与官方任务 checkpoint
 

@@ -12,6 +12,7 @@
     "cuda_toolkit": "11.8.89",
     "torch": "2.1.2+cu118",
     "torchvision": "0.16.2+cu118",
+    "pytorch3d_eval": "0.7.7",
     "transformers": "4.37.2",
     "peft": "0.10.0",
     "deepspeed": "0.12.6",

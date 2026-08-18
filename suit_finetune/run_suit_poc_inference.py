@@ -35,10 +35,19 @@ def parse_args() -> argparse.Namespace:
     source.add_argument("--image-dir", type=Path)
     parser.add_argument("--data-root", type=Path)
     parser.add_argument("--output-dir", type=Path, required=True)
-    parser.add_argument("--suit-lora", type=Path, required=True)
+    parser.add_argument(
+        "--suit-lora",
+        type=Path,
+        help="Suit LoRA state. Omit it to evaluate the untouched official task checkpoint.",
+    )
     parser.add_argument("--limit", type=int, default=12)
     parser.add_argument("--max-new-tokens", type=int, default=256)
     parser.add_argument("--body", type=Path)
+    parser.add_argument(
+        "--skip-pattern",
+        action="store_true",
+        help="Only run model/parameter evaluation; skip GarmentCode pattern construction.",
+    )
     return parser.parse_args()
 
 
@@ -137,13 +146,15 @@ def load_model(args: argparse.Namespace):
     model.initialize_vision_tokenizer(model_args, tokenizer=tokenizer)
 
     official_state = torch.load(official_checkpoint, map_location="cpu")
-    suit_state = torch.load(args.suit_lora, map_location="cpu")
-    unexpected = sorted(set(suit_state) - set(official_state))
-    if unexpected:
-        raise RuntimeError(f"suit LoRA contains unknown state keys: {unexpected[:5]}")
-    official_state.update(suit_state)
+    if args.suit_lora:
+        suit_state = torch.load(args.suit_lora, map_location="cpu")
+        unexpected = sorted(set(suit_state) - set(official_state))
+        if unexpected:
+            raise RuntimeError(f"suit LoRA contains unknown state keys: {unexpected[:5]}")
+        official_state.update(suit_state)
+        del suit_state
     model.load_state_dict(official_state, strict=True)
-    del official_state, suit_state
+    del official_state
     model = model.bfloat16().cuda().eval()
 
     helpers = {
@@ -254,9 +265,19 @@ def main() -> None:
             {"id": path.stem, "_image_path": str(path)}
             for path in image_paths
         ]
-    records = records[: max(1, args.limit)]
+    if args.limit > 0:
+        records = records[: args.limit]
     model, tokenizer, vision_tower, helpers = load_model(args)
 
+    learned_fields = (
+        "garment_length_ratio",
+        "waist_ease_cm",
+        "lapel_style",
+        "button_count",
+        "small_pocket_enabled",
+        "large_pockets_enabled",
+    )
+    model_variant = "official_base_plus_suit_lora" if args.suit_lora else "official_base"
     results: list[dict[str, Any]] = []
     for index, record in enumerate(records, start=1):
         case_id = str(record["id"])
@@ -274,8 +295,22 @@ def main() -> None:
         if expected_text:
             shutil.copy2(image_path, case_dir / f"input{image_path.suffix.lower()}")
             (case_dir / "expected_output.txt").write_text(expected_text, encoding="utf-8")
+            expected_values, _ = normalize(extract_mapping(expected_text))
+        else:
+            expected_values = None
 
-        result: dict[str, Any] = {"id": case_id, "image": str(image_path)}
+        result: dict[str, Any] = {
+            "id": case_id,
+            "image": str(image_path),
+            "model_variant": model_variant,
+            "generation_success": False,
+            "parse_success": False,
+            "schema_complete": False,
+            "pattern_attempted": False,
+            "pattern_success": None,
+        }
+        if expected_values is not None:
+            result["expected"] = expected_values
         try:
             generated = generate_text(
                 model,
@@ -286,58 +321,73 @@ def main() -> None:
                 args.max_new_tokens,
             )
             (case_dir / "model_output.txt").write_text(generated, encoding="utf-8")
-            parsed = extract_mapping(generated)
-            values, corrections = normalize(parsed)
-            template = yaml.safe_load(template_path.read_text(encoding="utf-8"))
-            design_document = apply_to_template(template, values)
-            design_path = case_dir / "design_params.yaml"
-            design_path.write_text(
-                yaml.safe_dump(design_document, allow_unicode=True, sort_keys=False),
-                encoding="utf-8",
-            )
-            pattern_dir = generate_pattern(
-                garmentcode_root,
-                body_path,
-                design_path,
-                case_dir / "pattern",
-                case_id,
-            )
-            learned_fields = (
-                "garment_length_ratio",
-                "waist_ease_cm",
-                "lapel_style",
-                "button_count",
-                "small_pocket_enabled",
-                "large_pockets_enabled",
-            )
-            result.update(
-                {
-                    "parse_success": True,
-                    "pattern_success": True,
-                    "predicted": values,
-                    "corrections": corrections,
-                    "pattern_dir": str(pattern_dir),
-                }
-            )
-            if expected_text:
-                expected_values, _ = normalize(extract_mapping(expected_text))
-                result.update(
-                    {
-                        "expected": expected_values,
-                        "field_matches": {
-                            field: values[field] == expected_values[field]
-                            for field in learned_fields
-                        },
-                    }
-                )
+            result["generation_success"] = True
         except Exception as exc:
             result.update(
                 {
-                    "parse_success": False,
-                    "pattern_success": False,
+                    "error_stage": "generation",
                     "error": f"{type(exc).__name__}: {exc}",
                 }
             )
+        if result["generation_success"]:
+            try:
+                parsed = extract_mapping(generated)
+                raw_values = parsed.get("suit", parsed)
+                if not isinstance(raw_values, dict):
+                    raise ValueError("model output does not contain a suit parameter mapping")
+                values, corrections = normalize(parsed)
+                result.update(
+                    {
+                        "parse_success": True,
+                        "schema_complete": all(field in raw_values for field in learned_fields),
+                        "raw_predicted": raw_values,
+                        "predicted": values,
+                        "corrections": corrections,
+                    }
+                )
+                if expected_text:
+                    result.update(
+                        {
+                            "field_matches": {
+                                field: values[field] == expected_values[field]
+                                for field in learned_fields
+                            },
+                        }
+                    )
+                template = yaml.safe_load(template_path.read_text(encoding="utf-8"))
+                design_document = apply_to_template(template, values)
+                design_path = case_dir / "design_params.yaml"
+                design_path.write_text(
+                    yaml.safe_dump(design_document, allow_unicode=True, sort_keys=False),
+                    encoding="utf-8",
+                )
+                if not args.skip_pattern:
+                    result["pattern_attempted"] = True
+                    try:
+                        pattern_dir = generate_pattern(
+                            garmentcode_root,
+                            body_path,
+                            design_path,
+                            case_dir / "pattern",
+                            case_id,
+                        )
+                        result.update(
+                            {"pattern_success": True, "pattern_dir": str(pattern_dir)}
+                        )
+                    except Exception as exc:
+                        result.update(
+                            {
+                                "pattern_success": False,
+                                "pattern_error": f"{type(exc).__name__}: {exc}",
+                            }
+                        )
+            except Exception as exc:
+                result.update(
+                    {
+                        "error_stage": "parse_or_adapter",
+                        "error": f"{type(exc).__name__}: {exc}",
+                    }
+                )
         results.append(result)
         (case_dir / "result.json").write_text(
             json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -345,8 +395,12 @@ def main() -> None:
         print(json.dumps(result, ensure_ascii=False))
 
     summary = {
+        "model_variant": model_variant,
         "cases": len(results),
+        "generation_success": sum(bool(item.get("generation_success")) for item in results),
         "parse_success": sum(bool(item.get("parse_success")) for item in results),
+        "schema_complete": sum(bool(item.get("schema_complete")) for item in results),
+        "pattern_attempted": sum(bool(item.get("pattern_attempted")) for item in results),
         "pattern_success": sum(bool(item.get("pattern_success")) for item in results),
         "results": results,
     }

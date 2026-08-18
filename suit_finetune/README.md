@@ -70,5 +70,14 @@ bash suit_finetune/run_suit_poc_train.sh
 - `suit_output_adapter.py`：把模型文本转换为标准西装设计 YAML；
 - `build_suit_3d_spec.py`：把参数化西装输出映射到 K62 三维装配规格；
 - `inspect_spec_topology.py`：检查面片、边界与缝合拓扑。
+- `run_suit_evaluation.sh`：在完整留出测试集上比较官方基础权重与西装 LoRA；
+- `evaluate_suit_outputs.py`：汇总六个监督字段、解析与板片生成指标；
+- `run_suit_stitching_evaluation.py`：统计 K62/Warp 通路的缝合失败率；
+- `evaluate_paper_mesh_metrics.py`：真值网格齐备后计算论文口径 CD 与 F-Score；
+
+评测数据口径、服务器命令和结果文件说明见
+[`EVALUATION.md`](EVALUATION.md)，当前 v1 留出集结果见
+[`RESULTS.md`](RESULTS.md)，机器可读摘要见
+[`results/suit_lora_v1_summary.json`](results/suit_lora_v1_summary.json)。
 
 完整应用中的输出由 `pipeline/app_service.py` 组织到 `app_data/runs/<job-id>/`，并生成任务清单与可下载结果包。
