@@ -1057,6 +1057,43 @@ footer {
   font-weight: 700;
 }
 
+.job-dxf-downloads {
+  margin-top: 16px;
+  padding: 13px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  border: 1px solid color-mix(in srgb, var(--orange) 35%, var(--line));
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--orange) 7%, var(--card));
+}
+
+.job-dxf-downloads > div:first-child {
+  display: grid;
+  gap: 3px;
+}
+
+.job-dxf-downloads small {
+  color: var(--muted);
+}
+
+.job-dxf-downloads > div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.job-dxf-downloads a {
+  padding: 8px 11px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 8px;
+  background: var(--orange);
+}
+
 .technical-artifacts {
   margin-top: 16px;
   border-top: 1px solid var(--line);

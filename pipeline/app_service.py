@@ -28,6 +28,8 @@ from urllib.parse import unquote, urlparse
 
 import numpy as np
 
+from dxf_export import export_specification
+
 
 JOB_ID_PATTERN = re.compile(r"^[0-9a-f]{32}$")
 ALLOWED_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp"}
@@ -39,7 +41,7 @@ FINAL_STATES = {"completed", "failed", "cancelled", "trashed"}
 VISIBLE_ARTIFACT_SUFFIXES = {
     ".png", ".jpg", ".jpeg", ".webp", ".svg", ".mp4", ".obj",
     ".mtl", ".json", ".yaml", ".yml", ".txt", ".npz", ".pkl",
-    ".pickle", ".zip", ".blend", ".pdf",
+    ".pickle", ".zip", ".blend", ".pdf", ".dxf",
 }
 
 
@@ -1442,7 +1444,8 @@ class Pipeline:
                 encoding="utf-8",
             )
 
-        self.set_stage(job_id, "collecting", 93, "正在整理男西装二维、静态与动态三维产物和下载包")
+        self.set_stage(job_id, "collecting", 93, "正在导出 DXF 并整理男西装二维、静态与动态三维产物")
+        self.export_job_dxfs(job_root)
         self.write_result_manifest(job_id, config)
         self.make_bundle(job_id)
         self.store.update(
@@ -1605,6 +1608,8 @@ class Pipeline:
                 if transient_run.is_dir():
                     shutil.rmtree(transient_run)
 
+            self.store.update(job_id, message="正在从板片规格导出 1:1 DXF 样片")
+            self.export_job_dxfs(job_root)
             self.write_result_manifest(job_id, config)
             self.make_bundle(job_id)
             size = tree_size(job_root)
@@ -1662,6 +1667,33 @@ class Pipeline:
             )
         return records
 
+    def export_job_dxfs(self, job_root: Path) -> dict[str, Any]:
+        """Export every final pattern specification under a job's outputs."""
+        output_root = job_root / "outputs"
+        specifications = sorted(output_root.rglob("*_specification.json"))
+        if not specifications:
+            raise FileNotFoundError("No GarmentCode specifications were produced for DXF export")
+        exports: list[dict[str, Any]] = []
+        for specification in specifications:
+            pattern_name = specification.stem.removesuffix("_specification")
+            dxf_path = specification.with_name(f"{pattern_name}_pattern.dxf")
+            preview_path = specification.with_name(f"{pattern_name}_pattern_dxf_preview.svg")
+            report = export_specification(specification, dxf_path, preview=preview_path)
+            report["source_specification"] = specification.relative_to(job_root).as_posix()
+            report["output_dxf"] = dxf_path.relative_to(job_root).as_posix()
+            report["output_preview"] = preview_path.relative_to(job_root).as_posix()
+            exports.append(report)
+        manifest = {
+            "format": "AutoCAD DXF 2000 (AC1015)",
+            "units": "millimetres",
+            "export_count": len(exports),
+            "exports": exports,
+        }
+        (output_root / "dxf_export_manifest.json").write_text(
+            json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        return manifest
+
     def write_result_manifest(self, job_id: str, config: dict[str, Any]) -> None:
         root = self.store.job_root(job_id)
         is_suit = config.get("garment_mode") == "mens_suit"
@@ -1688,6 +1720,7 @@ class Pipeline:
                     else "General tasks retain the official upper/lower/whole-body output structure."
                 ),
                 "Runtime motion assets are intentionally excluded from result downloads.",
+                "DXF files are exported at 1:1 metric scale from GarmentCode panel geometry; output units are millimetres.",
             ],
         }
         (root / "result_manifest.json").write_text(

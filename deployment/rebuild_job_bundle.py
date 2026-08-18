@@ -32,11 +32,21 @@ def main() -> None:
 
     pipeline = Pipeline(project_root, store)
     config = json.loads(row["config_json"])
+    dxf_manifest = pipeline.export_job_dxfs(store.job_root(args.job_id))
     pipeline.write_result_manifest(args.job_id, config)
     bundle = pipeline.make_bundle(args.job_id)
     size = tree_size(store.job_root(args.job_id))
     store.update(args.job_id, size_bytes=size)
-    print(json.dumps({"job_id": args.job_id, "bundle": str(bundle), "size_bytes": size}))
+    print(
+        json.dumps(
+            {
+                "job_id": args.job_id,
+                "dxf_export_count": dxf_manifest["export_count"],
+                "bundle": str(bundle),
+                "size_bytes": size,
+            }
+        )
+    )
 
 
 if __name__ == "__main__":

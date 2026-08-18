@@ -368,6 +368,13 @@ function artifactPresentation(artifact: JobArtifact, job?: JobRecord) {
         : `${gender}预设标准 SMPL-X 人体预览`;
     return { order: 10, step: "02 · 人体准备", label };
   }
+  if (/pattern_dxf_preview\.svg$/i.test(artifact.name)) {
+    return {
+      order: 23,
+      step: "03 · DXF 导出",
+      label: "1:1 毫米 DXF 样片预览",
+    };
+  }
   if (/pattern\.png$/i.test(artifact.name)) {
     const isK62Assembly = value.includes("k62_3d_pattern.png");
     return {
@@ -1738,7 +1745,11 @@ function WorkflowStudio() {
         <div className="job-list">
           {jobs.map((job) => {
             const media = job.artifacts
-              .filter((artifact) => /\.(png|jpe?g|webp|mp4)$/i.test(artifact.name))
+              .filter(
+                (artifact) =>
+                  /\.(png|jpe?g|webp|mp4)$/i.test(artifact.name) ||
+                  /pattern_dxf_preview\.svg$/i.test(artifact.name),
+              )
               .sort((left, right) => {
                 const orderDifference =
                   artifactPresentation(left, job).order - artifactPresentation(right, job).order;
@@ -1754,6 +1765,9 @@ function WorkflowStudio() {
                   left.path.localeCompare(right.path, "zh-CN", { numeric: true })
                 );
               });
+            const dxfArtifacts = job.artifacts.filter((artifact) =>
+              artifact.name.toLowerCase().endsWith(".dxf"),
+            );
             return (
               <article className="job-card" key={job.id}>
                 <header>
@@ -1847,6 +1861,21 @@ function WorkflowStudio() {
                   </div>
                 )}
                 {job.error && <pre className="job-error">{job.error}</pre>}
+                {!!dxfArtifacts.length && (
+                  <div className="job-dxf-downloads">
+                    <div>
+                      <strong>DXF 样片</strong>
+                      <small>1:1 毫米制板片，可分别下载或随结果 ZIP 一并下载</small>
+                    </div>
+                    <div>
+                      {dxfArtifacts.map((artifact, index) => (
+                        <a key={artifact.path} href={artifact.url} download>
+                          下载 DXF {dxfArtifacts.length > 1 ? index + 1 : ""}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
                 {!!media.length && (
                   <div className="job-media-grid">
                     {media.map((artifact, index) => {

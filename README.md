@@ -13,9 +13,11 @@
 
 以下产物来自同一次全身西装任务。
 
-| 输入图片 | 西装上衣板片 | 下装板片 |
+| 输入图片 | 西装上衣 DXF 样片预览 | 下装 DXF 样片预览 |
 | --- | --- | --- |
-| ![全身西装输入](docs/assets/mens-suit/input.jpg) | ![西装上衣板片](docs/assets/mens-suit/upper-pattern.png) | ![下装板片](docs/assets/mens-suit/lower-pattern.png) |
+| ![全身西装输入](docs/assets/mens-suit/input.jpg) | ![西装上衣 DXF 样片预览](docs/assets/mens-suit/upper-dxf-preview.svg) | ![下装 DXF 样片预览](docs/assets/mens-suit/lower-dxf-preview.svg) |
+
+两张样片图均由相应的 1:1 毫米 DXF 使用同一组轮廓数据生成，而不是另外绘制的示意图。
 
 ### 西装上衣
 
@@ -40,6 +42,7 @@
 - 通用女装：识别上装、下装和连体服装，输出 GarmentCode 参数、二维板片及三维结果。
 - 男西装：使用西装 LoRA 生成上衣参数化板片，迁移到 K62 的 11 片、66 条基础缝合拓扑，并按模型识别的纽扣数连接扣位。
 - 西装下装：由 ChatGarment 基础权重独立识别，并使用与 K62 一致的 `mean_all` 基准人体生成板片和静态垂坠结果。
+- DXF 样片：从 GarmentCode 规格直接导出 1:1 毫米 DXF，并在网页显示同源 SVG 样片预览；DXF 可单独下载或随任务 ZIP 下载。
 - 上下装同穿：提供上衣、下装以及上下装组合的静态正反面渲染。
 - 动态仿真：将西装上衣与下装合并后输入 ContourCraft-CG，生成包含人体动作的动态布料视频。
 - 人体尺寸适配：根据身高、体重、胸围、腰围、臀围匹配国标基础人体并补全 GarmentCode 所需的 26 字段 YAML。
@@ -54,6 +57,7 @@ flowchart LR
     B --> C["GarmentCode 参数与二维板片"]
     N --> C
     C --> D["缝合关系与规格 JSON"]
+    C --> X["1:1 DXF 与网页预览"]
     D --> E["Warp 静态缝合与垂坠"]
     E --> F["静态正反面渲染"]
     E --> G["ContourCraft-CG 动态仿真"]
