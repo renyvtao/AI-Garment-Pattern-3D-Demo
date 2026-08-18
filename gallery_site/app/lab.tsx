@@ -1636,9 +1636,11 @@ function WorkflowStudio() {
             </label>
             <label>
               <span>三维人体</span>
-              <select disabled={garmentMode === "mens_suit"} value={bodyMode} onChange={(event) => setBodyMode(event.target.value as "preset" | "custom")}>
+              <select disabled={!SHOW_EXPERIMENTAL_BODY_TOOLS || garmentMode === "mens_suit"} value={bodyMode} onChange={(event) => setBodyMode(event.target.value as "preset" | "custom")}>
                 <option value="preset">预设标准人体</option>
-                <option value="custom">{garmentMode === "mens_suit" ? "本次尺寸用于制版与板片适配" : "按本次尺寸定制人体"}</option>
+                {SHOW_EXPERIMENTAL_BODY_TOOLS && (
+                  <option value="custom">{garmentMode === "mens_suit" ? "本次尺寸用于制版与板片适配" : "按本次尺寸定制人体"}</option>
+                )}
               </select>
             </label>
             <label>
@@ -2016,6 +2018,8 @@ function HomeWorkflowSummary() {
 
 type LabView = "landing" | "workflow" | "body-customizer" | "body-pattern" | "results";
 
+const SHOW_EXPERIMENTAL_BODY_TOOLS = false;
+
 const VIEW_COPY: Record<Exclude<LabView, "landing">, { eyebrow: string; title: string; detail: string }> = {
   workflow: {
     eyebrow: "END-TO-END WORKFLOW",
@@ -2078,8 +2082,12 @@ function LabPage({ view }: { view: LabView }) {
               [
                 ["/", "首页", "landing"],
                 ["/workflow", "完整处理", "workflow"],
-                ["/body-customizer", "定制人体", "body-customizer"],
-                ["/body-pattern", "尺寸补全", "body-pattern"],
+                ...(SHOW_EXPERIMENTAL_BODY_TOOLS
+                  ? [
+                      ["/body-customizer", "定制人体", "body-customizer"],
+                      ["/body-pattern", "尺寸补全", "body-pattern"],
+                    ]
+                  : []),
                 ["/results", "官方示例", "results"],
               ] as [string, string, LabView][]
             ).map(([href, label, itemView]) => (
@@ -2180,16 +2188,20 @@ function LabPage({ view }: { view: LabView }) {
             <strong>图片 → 制版 → 三维产物</strong>
             <small>上传图片和人体尺寸，查看进度与全部生成记录</small>
           </a>
-          <a href="/body-customizer">
-            <span>方案 A</span>
-            <strong>SHAPY → SMPL-X</strong>
-            <small>生成可注册、驱动动作和布料仿真的三维人体</small>
-          </a>
-          <a href="/body-pattern">
-            <span>方案 B</span>
-            <strong>GB/T 六模板 → GarmentCode YAML</strong>
-            <small>用身高与三围快速补全解码器需要的 26 项人体尺寸</small>
-          </a>
+          {SHOW_EXPERIMENTAL_BODY_TOOLS && (
+            <>
+              <a href="/body-customizer">
+                <span>方案 A</span>
+                <strong>SHAPY → SMPL-X</strong>
+                <small>生成可注册、驱动动作和布料仿真的三维人体</small>
+              </a>
+              <a href="/body-pattern">
+                <span>方案 B</span>
+                <strong>GB/T 六模板 → GarmentCode YAML</strong>
+                <small>用身高与三围快速补全解码器需要的 26 项人体尺寸</small>
+              </a>
+            </>
+          )}
           <a href="/results">
             <span>结果图册</span>
             <strong>十组官方示例</strong>
@@ -2393,11 +2405,11 @@ export function WorkflowPage() {
 }
 
 export function BodyCustomizerPage() {
-  return <LabPage view="body-customizer" />;
+  return <LabPage view={SHOW_EXPERIMENTAL_BODY_TOOLS ? "body-customizer" : "landing"} />;
 }
 
 export function BodyPatternPage() {
-  return <LabPage view="body-pattern" />;
+  return <LabPage view={SHOW_EXPERIMENTAL_BODY_TOOLS ? "body-pattern" : "landing"} />;
 }
 
 export function ResultsPage() {

@@ -25,7 +25,21 @@ test("server-renders the ChatGarment function home", async () => {
   assert.match(html, /从一张服装图/);
   assert.match(html, /选择要使用的功能/);
   assert.match(html, /href="\/workflow"/);
+  assert.doesNotMatch(html, /href="\/body-customizer"/);
+  assert.doesNotMatch(html, /href="\/body-pattern"/);
+  assert.doesNotMatch(html, /方案 A|方案 B/);
   assert.doesNotMatch(html, /ChatGarment Reproduction Lab<\/strong>/);
+});
+
+test("keeps hidden body tools out of their former public routes", async () => {
+  for (const path of ["/body-customizer", "/body-pattern"]) {
+    const response = await render(path);
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /从一张服装图/);
+    assert.doesNotMatch(html, /用人体尺寸和语义描述生成定制体型/);
+    assert.doesNotMatch(html, /用少量量体数据补全制版人体尺寸/);
+  }
 });
 
 test("server-renders the result atlas on its own route", async () => {
