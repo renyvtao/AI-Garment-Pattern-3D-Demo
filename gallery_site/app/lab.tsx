@@ -1420,16 +1420,16 @@ function JobProgressPanel({ job, prominent = false }: { job: JobRecord; prominen
 function WorkflowStudio() {
   const [files, setFiles] = useState<File[]>([]);
   const [name, setName] = useState("服装1");
-  const [garmentMode, setGarmentMode] = useState<GarmentMode>("general");
+  const [garmentMode, setGarmentMode] = useState<GarmentMode>("mens_suit");
   const [bodyMode, setBodyMode] = useState<"preset" | "custom">("preset");
-  const [gender, setGender] = useState<BodyGender>("female");
+  const [gender, setGender] = useState<BodyGender>("male");
   const [actionId, setActionId] = useState<BodyActionId>("official_showcase");
   const [measurements, setMeasurements] = useState({
-    height_cm: "168",
-    weight_kg: "55",
-    chest_cm: "84",
-    waist_cm: "68",
-    hips_cm: "90",
+    height_cm: "180",
+    weight_kg: "75",
+    chest_cm: "100",
+    waist_cm: "84",
+    hips_cm: "98",
   });
   const [actions, setActions] = useState<BodySchema["actions"]>([]);
   const [jobs, setJobs] = useState<JobRecord[]>([]);
